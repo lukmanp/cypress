@@ -1,0 +1,15 @@
+{
+  "name": "Educy",
+  "version": "1.0.0",
+  "description": "Automation",
+  "main": "index.js",
+  "author": "Lukman",
+  "license": "MIT",
+  "private": null,
+  "devDependencies": {
+    "cypress": "^12.13.0"
+  },
+  "scripts": {
+    "cy:open": "cypress open"
+  }
+}
