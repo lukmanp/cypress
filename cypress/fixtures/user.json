@@ -1,0 +1,14 @@
+{
+  "uname": "username",
+  "pass": "password",
+  "body": "Fixtures are a great way to mock data for responses to routes",
+  "u_name1": "standard_user",
+  "u_name2": "locked_out_user",
+  "u_name3": "problem_user",
+  "u_name4": "performance_glitch_user",
+  "pwd": "secret_sauce",
+  "search" : "ONLINE",
+  "amount": "10",
+  "date": "1",
+  "description": "Test Pay-Bills"
+}
