@@ -51,17 +51,17 @@ Cypress.Commands.add('paybills', (amount, date, description) => {
     cy.clearAllLocalStorage() // clear all storage
 
     cy.get('#sp_amount').clear()
-    cy.get('#sp_amount').type(amount)
+    cy.get('#sp_amount').type(amount) // input value untuk field amount
 
     cy.get('#sp_date').click()
-    cy.get('.ui-state-default').contains(date).click()
+    cy.get('.ui-state-default').contains(date).click() // pilih tanggal di date-picker
     
     cy.get('#sp_description').clear()
-    cy.get('#sp_description').type(description)
+    cy.get('#sp_description').type(description) //input value untuk description
     
-    cy.get("#pay_saved_payees").click();
+    cy.get("#pay_saved_payees").click(); // klik tombol pay
 
-    // cy.get("#alert_content").should('contain.text' , 'The payment was successfully submitted.')
+    // cy.get("#alert_content").should('contain.text' , 'The payment was successfully submitted.') // validasi (assertion) untuk "The payment was successfully submitted."
 
     
 })
